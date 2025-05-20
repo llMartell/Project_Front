@@ -207,7 +207,33 @@ header {
     text-align: center;
     display: block;
 }
-
+@font-face {
+    font-family: TLOU;
+    src: url("fonts/HeadlinerNo.45 DEMO.ttf"); 
+}
+.TLOU {
+    font-family: TLOU;
+    text-align: center;
+    display: block;
+}
+@font-face {
+    font-family: myth;
+    src: url("fonts/CrimsonPro-Regular.ttf"); 
+}
+.myth {
+    font-family: myth;
+    text-align: center;
+    display: block;
+}
+@font-face {
+    font-family: TW;
+    src: url("fonts/Circus Of Innocents.ttf"); 
+}
+.TW {
+    font-family: TW;
+    text-align: center;
+    display: block;
+}
 
 
 /*---------------------------------------Area de Cards Diferentes---------------------------------------*/
@@ -252,7 +278,18 @@ header {
     color: #00ff80;
     border: 5px solid #00ff80;
 }
-
+.card-TLOU:hover {
+    color: black;
+    border: 5px solid rgb(0, 0, 0);
+}
+.card-TeenWolf:hover {
+    color: black;
+    border: 5px solid darkslategray;
+}
+.card-Myth:hover {
+    color: rgb(49, 46, 46);
+    border: 5px solid rgb(49, 46, 46);
+}
 /*---------------------------------------Area do Doom---------------------------------------*/
 /*Gabriel Arruda*/
 .card-Doom .iframe-container {
@@ -263,7 +300,7 @@ header {
 
 .iframe-doom {
     margin-top:-30px ;
-    width: 700px;
+    width: 500px;
     height: 450px;
     border: none;
     border-radius: 6px;
